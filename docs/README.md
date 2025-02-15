@@ -7,16 +7,16 @@ config:
     full: true
     background: tint-plate
     hero:
-      name: Theme Plume
-      tagline: VuePress Next Theme
-      text: 一个简约的，功能丰富的 vuepress 文档&博客 主题
+      name: OTC999
+      # tagline: 一个ZZUer药学专业学生的个人知识分享网站
+      text: 一个ZZU药学专业学生的个人知识分享网站
       actions:
         -
           theme: brand
-          text: 博客
-          link: /blog/
+          text: 学习资料(分类) ↑
+          link: /blog/categories/
         -
           theme: alt
-          text: Github →
-          link: https://github.com/pengzhanbo/vuepress-theme-plume
+          text: 小红书主页 →
+          link: https://www.xiaohongshu.com/user/profile/62ea6374000000001f005c6c
 ---
