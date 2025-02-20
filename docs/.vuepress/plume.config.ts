@@ -6,7 +6,7 @@ import { notes } from './notes'
  * @see https://theme-plume.vuejs.press/config/basic/
  */
 export default defineThemeConfig({
-  logo: 'https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo31dgvh80fgk605onacdq7on3c3769lp8?imageView2/2/w/540/format/webp|imageMogr2/strip2',
+  logo: 'https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo31dgvh80fgk605onacdq7on3c3769lp8',
 
   appearance: true,  // 配置 深色模式
 
@@ -40,7 +40,7 @@ export default defineThemeConfig({
    * @see https://theme-plume.vuejs.press/config/basic/#profile
    */
   profile: {
-    avatar: 'https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo31dgvh80fgk605onacdq7on3c3769lp8?imageView2/2/w/540/format/webp|imageMogr2/strip2',
+    avatar: 'https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo31dgvh80fgk605onacdq7on3c3769lp8',
     name: 'OTC999',
     description: '小红薯用户“OTC999”的PDF高清版资料储存库，包括但不限于药理学、药物分析、药物化学、病理生理学、物理化学。旨在为准备考研、期末考试等的药学同仁们提供各种资料，持续更新ing。如有不足，欢迎小红薯留言～',
     circle: true,
@@ -60,7 +60,8 @@ export default defineThemeConfig({
     layout: 'top-right',
     contentType: 'markdown',
     title: '欢迎',
-    content: '欢迎各位来到我的知识分享网站，可以前往我的小红书关注我，将持续更新药学资料习题~~',
+    content: '欢迎各位来到我的知识分享网站，可以前往我的小红书关注我<a target="_blank" href="https://www.xiaohongshu.com/user/profile/62ea6374000000001f005c6c">OTC999</a>，将持续更新药学资料习题~~',
+    //    <br>  <img src="https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo31dgvh80fgk605onacdq7on3c3769lp8" alt="小红书" style="zoom:50%;" />
   },
 
   /* 过渡动画 @see https://theme-plume.vuejs.press/config/basic/#transition */
