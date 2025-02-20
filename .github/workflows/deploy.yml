@@ -39,6 +39,7 @@ jobs:
         run: |
           npm run docs:build
           echo "tql.us.kg" > docs/.vuepress/dist/CNAME
+          echo "11486827717217746415" >> docs/.vuepress/dist/tencent12988050392083209937.txt
 
 
       # 查看 workflow 的文档来获取更多信息
