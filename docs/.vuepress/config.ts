@@ -1,6 +1,7 @@
 import { viteBundler } from '@vuepress/bundler-vite'
 import { defineUserConfig } from 'vuepress'
 import { plumeTheme } from 'vuepress-theme-plume'
+import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics'
 
 export default defineUserConfig({
   base: '/',
@@ -14,6 +15,11 @@ export default defineUserConfig({
   ],
 
   bundler: viteBundler(),
+  plugins: [
+    googleAnalyticsPlugin({
+      id: 'G-8KFM1YTRSK',
+    }),
+  ],
   shouldPrefetch: false, // 站点较大，页面数量较多时，不建议启用
 
   theme: plumeTheme({
@@ -24,20 +30,28 @@ export default defineUserConfig({
     // docsRepo: 'https://github.com/star9464/star9464.github.io',
     // docsDir: 'docs',
     // docsBranch: 'main',
-
+    // copyright: 'CC-BY-NC-ND-4.0',
     /* 页内信息 */
     // editLink: true,
     // lastUpdated: true,
-    contributors: {
-      mode: 'block',
-    },
-    changelog: {
-      maxCount: 10,
-      repoUrl: 'https://github.com/star9464/star9464.github.io',
-      commitUrlPattern: ':repo/commit/:hash',
-      issueUrlPattern: ':repo/issues/:issue',
-      tagUrlPattern: ':repo/releases/tag/:tag'
-    },
+    // contributors: {
+      // mode: 'block',
+      // info: [
+      //   {
+      //     username: 'OTC999', // username
+      //     alias: ['OTC999'], // 别名，本地 git 配置中的用户名
+      //     url: 'https://www.xiaohongshu.com/user/profile/62ea6374000000001f005c6c',
+      //     avatar: 'https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo31dgvh80fgk605onacdq7on3c3769lp8',
+      //   },
+      // ],
+    // },
+    // changelog: {
+    //   maxCount: 10,
+    //   repoUrl: 'https://github.com/star9464/star9464.github.io',
+    //   commitUrlPattern: ':repo/commit/:hash',
+    //   issueUrlPattern: ':repo/issues/:issue',
+    //   tagUrlPattern: ':repo/releases/tag/:tag'
+    // },
 
     /**
      * 博客
@@ -73,6 +87,7 @@ export default defineUserConfig({
     // },
 
     plugins: {
+      git:true,
       /**
        * Shiki 代码高亮
        * @see https://theme-plume.vuejs.press/config/plugins/code-highlight/
