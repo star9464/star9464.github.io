@@ -11,20 +11,20 @@ export default defineUserConfig({
 
   head: [
     // 配置站点图标
-    ['link', { rel: 'icon', type: 'image/png', href: 'https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo31dgvh80fgk605onacdq7on3c3769lp8?imageView2/2/w/540/format/webp|imageMogr2/strip2' }],
+    ['link', { rel: 'icon', type: 'image/png', href: 'https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo31dgvh80fgk605onacdq7on3c3769lp8' }],
   ],
 
   bundler: viteBundler(),
   plugins: [
     googleAnalyticsPlugin({
-      id: 'G-8KFM1YTRSK',
+      id: 'G-ETBE6VEBFX',
     }),
   ],
   shouldPrefetch: false, // 站点较大，页面数量较多时，不建议启用
 
   theme: plumeTheme({
     /* 添加您的部署域名, 有助于 SEO, 生成 sitemap */
-    hostname: 'tql.us.kg',
+    hostname: 'mioe.me',
 
     /* 文档仓库配置，用于 editLink */
     // docsRepo: 'https://github.com/star9464/star9464.github.io',
