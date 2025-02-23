@@ -2,6 +2,9 @@
 title: 药理学-肾上腺素R激动拮抗药
 createTime: 2025/02/19 23:53:35
 permalink: /article/hlcdl2sp/
+tags: 
+    - 药理学
+
 ---
 
 以下是下载链接,点击即可：
