@@ -24,7 +24,7 @@ export default defineUserConfig({
 
   theme: plumeTheme({
     /* 添加您的部署域名, 有助于 SEO, 生成 sitemap */
-    hostname: 'mioe.me',
+    hostname: 'tql.us.kg',
 
     /* 文档仓库配置，用于 editLink */
     // docsRepo: 'https://github.com/star9464/star9464.github.io',
