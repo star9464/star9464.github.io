@@ -60,8 +60,7 @@ export default defineThemeConfig({
     layout: 'top-right',
     contentType: 'markdown',
     title: '欢迎',
-    content: '欢迎各位来到我的知识分享网站，可以前往我的小红书关注我<a target="_blank" href="https://www.xiaohongshu.com/user/profile/62ea6374000000001f005c6c">OTC999</a>，将持续更新药学资料习题~~',
-    //    <br>  <img src="https://sns-avatar-qc.xhscdn.com/avatar/1040g2jo31dgvh80fgk605onacdq7on3c3769lp8" alt="小红书" style="zoom:50%;" />
+    content: '欢迎各位来到我的知识分享网站，可以前往小红书关注我[OTC999](https://www.xiaohongshu.com/user/profile/62ea6374000000001f005c6c)，将持续更新药学资料习题~~<br><br>**资料整理不易，感谢各位支持！**<br> [![小红书](/sponsor.jpg)](https://www.xiaohongshu.com/user/profile/62ea6374000000001f005c6c)',
   },
 
   /* 过渡动画 @see https://theme-plume.vuejs.press/config/basic/#transition */
